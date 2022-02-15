@@ -3,7 +3,9 @@
     colors:
         <body> #F6F8F9
         <hr> #F6F8F9
-
+        .blue_button #14AAF5
+        .blue_button(text) #F9FDFF
+        .white_button(text) #C5CCD1
 */
 
 
@@ -11,11 +13,16 @@ body{
     background-color: #F6F8F9;
     margin: 0;
 }
+
+h3{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
 /* --- */
 
 
-/* main header and logo */
-#main_header{
+/* primary header awith logo img + text */
+#primary_header{
     background-color: white;
     
 }
@@ -31,15 +38,128 @@ body{
     vertical-align: text-bottom;
     font-size: xx-large;
     font-weight: 800;
+}
 /* --- */
 
 
+/* Primary main */
+#primary_main{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2.75rem;
+}
 
+.button_holder{
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
 
+button{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    border-radius: 0.3rem;
+    border: none;
+}
 
+.blue_button{
+    border: 1px solid #14AAF5;
+    background-color: #14AAF5;
+    color: #F9FDFF;
+}
+
+.white_button{
+    background-color: #ffffff;
+    border: 1px solid #C5CCD1;
+    color: #C5CCD1;
+}
+
+hr{
+    height: 0.2rem;
+    background-color:#F6F8F9;
+    border: none;
+    margin-bottom: 0;
+}
+
+/* secondary main */
+.typology{
+    margin-top: 2rem;
+}
+
+.arrow_down {
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 0.5rem solid #434851;
+  }
+
+.check{
+    display: inline-block;
+    border: 1px solid #3ACAB0;
+    color: #3ACAB0;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+   
     
-    
-    
+
+}
+
+.inside{
+     font-size: 0.8rem;
+     padding-left: 0.2rem;
+     vertical-align: text-top;
+}
+
+.check_text{
+    font-weight: 600;
+    color: #60656C;
+}
+
+.label{
+    display: inline-block;
+    /* border: 1px solid #09A9ED; */
+    font-size: 0.6rem;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+    color: white;
+}
+
+.blue{
+    border: 1px solid #09A9ED;
+    background-color: #09A9ED;
     
 }
 
+.violet{
+    border: 1px solid #AB5DE6;
+    background-color: #AB5DE6;
+}
+
+.green{
+    border: 1px solid #2CC6AB;
+    background-color: #2CC6AB;
+}
+
+.orange{
+    border: 1px solid #FF9B00;
+    background-color: #FF9B00;
+}
+
+.pink{
+    border: 1px solid #EC4A9D;
+    background-color: #EC4A9D;
+}
+
+.light_green{
+    border: 1px solid #A3D116;
+    background-color: #A3D116;
+}
+
+div>span{
+    margin-top: 1rem;
+}
