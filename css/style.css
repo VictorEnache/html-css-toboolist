@@ -167,3 +167,12 @@ hr{
 div>span{
     margin-top: 1rem;
 }
+
+.x_check{
+    display: inline-block;
+    border: 1px solid red;
+    color: red;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
