@@ -1,0 +1,45 @@
+/* 
+
+    colors:
+        <body> #F6F8F9
+        <hr> #F6F8F9
+
+*/
+
+
+body{
+    background-color: #F6F8F9;
+    margin: 0;
+}
+/* --- */
+
+
+/* main header and logo */
+#main_header{
+    background-color: white;
+    
+}
+
+#logo_img{
+    width: 5rem;
+    vertical-align: text-bottom;
+}
+
+#logo_text{
+    display: inline-block;
+    line-height: 5rem;
+    vertical-align: text-bottom;
+    font-size: xx-large;
+    font-weight: 800;
+/* --- */
+
+
+
+
+
+    
+    
+    
+    
+}
+
